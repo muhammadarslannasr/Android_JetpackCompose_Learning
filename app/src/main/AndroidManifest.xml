@@ -13,6 +13,17 @@
         android:theme="@style/Theme.JetPackCompose_Learning"
         tools:targetApi="31">
         <activity
+            android:name=".ListViewActivity"
+            android:exported="true"
+            android:label="@string/title_activity_list_view"
+            android:theme="@style/Theme.JetPackCompose_Learning">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".TextFieldsButtonsSnackBarActivity"
             android:exported="true"
             android:label="@string/title_activity_text_fields_buttons_snack_bar"

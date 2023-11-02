@@ -3,4 +3,5 @@
     <string name="title_activity_state_jetpack_compose">StateJetpackComposeActivity</string>
     <string name="title_activity_text_fields_buttons_snack_bar">TextFieldsButtonsSnackBarActivity
     </string>
+    <string name="title_activity_list_view">ListViewActivity</string>
 </resources>
